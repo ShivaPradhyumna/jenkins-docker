@@ -1,5 +1,5 @@
 # Stage 1: Build with Maven
-FROM openjdk-17 AS build
+FROM openjdk:17-ea-10-jdk AS build
 WORKDIR /app
 COPY pom.xml .
 COPY src ./src
